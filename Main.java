@@ -21,7 +21,7 @@ public class Main {
         System.out.println("Jenis Kelamin       : "+ staff.getJenis_kelamin());
         System.out.println("Alamat              : "+ staff.getAlamat());
         System.out.println("Tahun masuk         : "+ staff.getTahun_masuk());
-        System.out.println("Gaji pokok          : "+staff.Totalgaji());
+        System.out.println("Gaji pokok          : "+ staff.Totalgaji());
         System.out.println("Upah lembur(20 jam) : "+ staff.jamlembur(20));
         System.out.println("Gaji total          : "+ staff.Totalgaji(20));
 
@@ -39,7 +39,7 @@ public class Main {
         System.out.println("\n");
         System.out.println("============= Dosen =============");
         System.out.println("Nama Dosen          : "+ dos.getNama());
-        System.out.println("NIDN                : "+dos.getNidn());
+        System.out.println("NIDN                : "+ dos.getNidn());
         System.out.println("Jurusan             : "+ dos.getJurusan());
         System.out.println("NIP  Dosen          : "+ dos.getNip());
         System.out.println("Tanggal Lahir       : "+ dos.getTgl_lahir());
